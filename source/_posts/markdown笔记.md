@@ -4,8 +4,7 @@ date: 2016-03-13 21:25:02
 tags:
 	--工具
 ---
-![](markdown.jpg)
-![](images/markdown.jpg)
+![](./markdown笔记/markdown.jpg)
 ## 一 Markdown是什么？
 
 Markdown 是一种用来写作的轻量级「标记语言」，它用简洁的语法代替排版，而不像一般我们用的字处理软件 Word 或 Pages 有大量的排版、字体设置。它使我们专心于码字，用「标记」语法，来代替常见的排版格式。例如此文从内容到格式，甚至插图，键盘就可以通通搞定了。目前来看，支持 Markdown 语法的编辑器有很多，包括很多网站（例如简书）也支持了 Markdown 的文字录入 
@@ -69,9 +68,9 @@ Markdown 是一种用来写作的轻量级「标记语言」，它用简洁的�
 ### 分隔线
 
 ```c
-***    表示分割线 
-* * *   表示分割线 
-*****   表示分割线 
+***    表示分割线
+* * *   表示分割线
+*****   表示分割线
 
 ```
 ***
@@ -90,7 +89,7 @@ this link[ http://baidu.com](http://baidu.com/) has no title attribute
 
     <p>This is <a href="http://http://baidu.com/" title="Title">
     an example</a> inline link.</p>
-    
+
     <p><a href="http://example.net/">This link</a> has no
     title attribute.</p>
 
@@ -118,11 +117,11 @@ __double underscores__
 转化为
 
         <em>single asterisks</em>
-        
+
         <em>single underscores</em>
-        
+
         <strong>double asterisks</strong>
-        
+
         <strong>double underscores</strong>
 
 
@@ -134,12 +133,12 @@ __double underscores__
 Use the `printf()` function.
 
     写法：  Use the `printf()` function.
-    
+
     转化为
     <p>Use the <code>printf()</code> function.</p>
 
-    
-    
+
+
 ### 图片插入
 
 
@@ -152,7 +151,7 @@ Use the `printf()` function.
 ![Alt text](/path/to/img.jpg)
 
     写法： ![Alt text](/path/to/img.jpg)
-    
+
     转化为
     <p>Use the <code>printf()</code> function.</p>
 
@@ -171,16 +170,8 @@ Use the `printf()` function.
         site : "http://jser.me"
       }
     ```
-    
+
 
 ***
 
 #### 以上是markdown的一些基本用法
-
-
-
-
-
-
-
-
